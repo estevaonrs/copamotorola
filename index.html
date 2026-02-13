@@ -5,41 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Copa Motorola 2026</title>
 
-    <script type="text/javascript">
-      /** * SOLUÇÃO DEFINITIVA PARA O ERRO 404 NO GITHUB PAGES 
-       * Este script intercepta a URL '/copamotorola/' e a transforma em '/copamotorola/#/'
-       * antes que o React carregue. Assim, o roteador do React lê apenas o '/' e funciona.
-       */
-      (function() {
-        var segment = 'copamotorola';
-        var path = window.location.pathname;
-        
-        // Se estamos na pasta do projeto e não temos o #/ (hash)
-        if (path.includes(segment) && !window.location.hash) {
-          var newPath = path.endsWith('/') ? path : path + '/';
-          window.history.replaceState(null, null, newPath + '#/');
-        }
-      })();
-    </script>
-
-    <script type="module" crossorigin src="./assets/index-DrDVW8eq.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-Dwum74DF.css">
+    <script type="module" crossorigin src="./assets/index-DrDVW8eq.js"></script>
   
     <style>
-      /* CSS original que você pediu para manter */
-      @font-face {
-        font-family: 'CameraPlainVariable';
-        src: url('https://cdn.gpteng.co/mcp-widgets/v1/fonts/CameraPlainVariable.woff2') format('woff2');
-        font-weight: 100 900; font-style: normal; font-display: swap;
-      }
       body { background-color: #000; margin: 0; color: #fff; }
       #root { min-height: 100vh; }
     </style>
   </head>
-
   <body>
     <div id="root"></div>
-
-    <aside id="lovable-badge"></aside>
   </body>
 </html>
